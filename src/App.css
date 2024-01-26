@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  width: 100%;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0 auto;
+  height: 10rem;
+  background-color: #458F03;
+}
+
+.header img {
+  display: flex;
+  background-color: white;
+  width: 30rem;
+  align-items: flex-start;
+  padding-left: 1rem;
+  padding-right: 3rem;
+}
+
+.refeicoes {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  height: 100%;
+  width: auto;
+  color: black;
+  padding-right: 3rem;
+  background-color: white;
+  border-top-right-radius: 90px;
+  border-bottom-right-radius: 90px;
+  cursor: pointer;
+}
+
+.refeicoes img {
+ display: flex;
+ width: 30px;
+ padding: .7rem;
+}
+
+.refeicoes button {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.refeicoes button span {
+  transition: all 0.3s;
+}
+
+.refeicoes button::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color:  #458F03;
+  border-bottom-color:  #458F03;
+  transform: scale(0.1, 1);
+}
+
+.refeicoes button:hover span {
+  letter-spacing: 2px;
+}
+
+.refeicoes button:hover::before {
+  opacity: 1; 
+  transform: scale(1, 1); 
+}
+
+.refeicoes button::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+  color: black;
+}
+
+.refeicoes button:hover::after {
+  opacity: 0; 
+  transform: scale(0.1, 1);
+}
+
+.contato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #458F03;
+}
+
+.contato img {
+  width:60px;
+  background-color: #458F03;
+  padding-top: 3rem;
+}
