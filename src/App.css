@@ -6,8 +6,11 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
 }
 
 .header {
@@ -125,4 +128,24 @@ body {
   width:60px;
   background-color: #458F03;
   padding-top: 3rem;
+}
+
+.cardapio {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 60rem;
+  height: 40rem;
+  border: 3px solid #458F03;
+  border-radius: 5rem;
+  gap: 1rem;
+  align-items: center;
+  margin: 15rem;
+}
+
+.cardapio img {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
