@@ -26,7 +26,9 @@ function App() {
 
       </div>
 
-      <div className='cardapio'>
+    <div className='boxMaior'>
+      <div className='container1'>
+      <div className='cardapio1'>
         <span><img src='https://revistazelo.com.br/wp-content/uploads/2022/04/pascoa-bacalhau-1.jpg'></img></span>
         <span><ul>
           <li>Frango à parmegiana com molho artesanal........35,00</li>
@@ -40,8 +42,10 @@ function App() {
           <li>*Todos os pratos acompanham arroz, feijão e salada à escolha*</li>
           </ul></span>
       </div>
+      </div>
 
-      <div className='cardapio'>
+      <div className='container2'>
+      <div className='cardapio2'>
         <span><ul>
           <li>Sopa de mandioquinha com costela.............35,00</li>
           <li>Cuscuz com queijo e charque..................40,00</li>
@@ -52,8 +56,10 @@ function App() {
           </ul></span>
           <span><img src='https://s2-casaejardim.glbimg.com/z2K-P5HrGgeBGgz0hLGKcHW_PiU=/0x0:1400x933/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_a0b7e59562ef42049f4e191fe476fe7d/internal_photos/bs/2023/j/d/zvLOkATPA5B8LEnVYBbw/receita-cuscuz-carne-seca-queijo-coalho-cebola-nina-cafe-sp.jpg'></img></span>
       </div>
+      </div>
 
-      <div className='cardapio'>
+      <div className='container1'>
+      <div className='cardapio1'>
         <span><img src='https://nutricao.flormel.com.br/imagens/largeblog/sobremesas-veganas-imagem-destacada.jpg'></img></span>
         <span><ul>
           <li>Taça de morangos com chantilly.............35,00</li>
@@ -64,8 +70,10 @@ function App() {
           <li>Barra de chocolate recheada da casa........25,80</li>
           </ul></span>
       </div>
+      </div>
 
-      <div className='cardapio'>
+      <div className='container2'>
+      <div className='cardapio2'>
         <span><ul>
           <li>Refrigerante lata.............35,00</li>
           <li>Refrigerante 1L...............40,00</li>
@@ -76,6 +84,8 @@ function App() {
           </ul></span>
           <span><img src='https://img.freepik.com/fotos-premium/bebidas-refrescantes-coloridas-para-o-verao-suco-de-limonada-de-morango-gelado-com-cubos-de-gelo-nos-copos-enfeitados-com-limoes-frescos-fatiados_211786-2181.jpg'></img></span>
       </div>
+      </div>
+    </div>
     </>
   )
 }
