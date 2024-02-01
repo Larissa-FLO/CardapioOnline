@@ -34,7 +34,7 @@ body {
   padding-right: 3rem;
 }
 
-.refeicoes {
+.menu {
   display: flex;
   align-items: center;
   font-size: 30px;
@@ -48,13 +48,13 @@ body {
   cursor: pointer;
 }
 
-.refeicoes img {
+.menu img {
  display: flex;
  width: 30px;
  padding: .7rem;
 }
 
-.refeicoes button {
+.menu button {
   display: flex;
   align-items: center;
   background-color: white;
@@ -67,11 +67,11 @@ body {
   position: relative;
 }
 
-.refeicoes button span {
+.menu button span {
   transition: all 0.3s;
 }
 
-.refeicoes button::before {
+.menu button::before {
   content: '';
   position: absolute;
   bottom: 0;
@@ -90,16 +90,16 @@ body {
   transform: scale(0.1, 1);
 }
 
-.refeicoes button:hover span {
+.menu button:hover span {
   letter-spacing: 2px;
 }
 
-.refeicoes button:hover::before {
+.menu button:hover::before {
   opacity: 1; 
   transform: scale(1, 1); 
 }
 
-.refeicoes button::after {
+.menu button::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -111,7 +111,7 @@ body {
   color: black;
 }
 
-.refeicoes button:hover::after {
+.menu button:hover::after {
   opacity: 0; 
   transform: scale(0.1, 1);
 }
@@ -133,12 +133,13 @@ body {
 .boxMaior {
   display: flex;
   flex-direction: column;
+  padding: 7rem;
 }
 
 .container1 {
   display: flex;
   height: 35rem;
-  padding: 2rem;
+  padding: 5rem;
   justify-content: flex-start;
   align-items: center;
 }
@@ -147,27 +148,30 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   width: 60rem;
-  height: 40rem;
+  height: 35rem;
   border: 3px solid #458F03;
   border-radius: 5rem;
-  gap: 1rem;
-  align-items: center;
-  margin: 15rem;
+  gap: 2rem;
+  
 }
 
 .cardapio1 img {
   display: flex;
-  width: 100%;
-  padding: 0;
-  margin: 0;
+  width: 27rem;
+  border-radius: 5rem;
+}
+
+.aviso{
+  display: flex;
+  font-size: smaller;
 }
 
 .container2 {
   display: flex;
   height: 35rem;
-  padding: 2rem;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -175,18 +179,32 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   width: 60rem;
-  height: 40rem;
+  height: 35rem;
   border: 3px solid #458F03;
   border-radius: 5rem;
-  gap: 1rem;
-  align-items: center;
-  margin: 15rem;
+  gap: 2rem;
+  
 }
 
 .cardapio2 img {
   display: flex;
-  width: 100%;
-  padding: 0;
-  margin: 0;
+  width: 27rem;
+  border-radius: 5rem;
+}
+
+.refeicoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 28rem;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 5rem;
+}
+
+.refeicoes ul {
+  list-style: none;
 }
